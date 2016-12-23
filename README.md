@@ -19,9 +19,8 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 
 ### Start app
 * Go to `trellis`
-* run `vagrant plugin install vagrant-vbguest`
 * run `vagrant up`
-* grab a coffee :)
+* grab a coffee, it will take a while :)
 
 ### Known issues
 [VT-x/AMD-V hardware acceleration disabled](https://forums.virtualbox.org/viewtopic.php?f=2&t=70291)
