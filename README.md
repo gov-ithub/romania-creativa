@@ -1,0 +1,2 @@
+# romania-creativa
+România trebuie să se alinieze tendințelor globale de trecere de la procesele de producție tradiționale la servicii și inovare și pentru a putea face acest lucru, este nevoie de a facilita trecerea la o economie creativă, prin catalizarea efectelor de propagare ale SCC într-un număr cât mai mare de contexte economice și sociale, astfel încât, în orizontul anul 2020, sectoarele culturale și creative să aibă o contribuție de 10% la PIB-ul României.
