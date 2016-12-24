@@ -22,6 +22,8 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 * run `vagrant up`
 * grab a coffee, it will take a while :)
 
+test
+
 ### Known issues
 [VT-x/AMD-V hardware acceleration disabled](https://forums.virtualbox.org/viewtopic.php?f=2&t=70291)
 
