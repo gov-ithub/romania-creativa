@@ -18,14 +18,11 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 * [Bower](https://github.com/bower/bower/blob/master/README.md#install) >= 1.3.12
 
 ### Start app
-* clone repo (console/cmd or using Source Tree)
-* go to `trellis` - where you cloned the repo
-* !!! For Windows users - set Windows\System32\drivers\etc\host file, Modify permission for your user
-* turn off the antivirus (in my case Avira) or set your antivirus to not block modify host file
+* Go to `trellis`
 * run `vagrant up`
 * grab a coffee, it will take a while :)
 
-* after your session finished, better run `vagrant halt`
+test
 
 ### Known issues
 [VT-x/AMD-V hardware acceleration disabled](https://forums.virtualbox.org/viewtopic.php?f=2&t=70291)
