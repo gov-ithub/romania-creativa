@@ -66,7 +66,7 @@ let webpackConfig = {
             `css?${sourceMapQueryStr}`,
             'postcss',
             `resolve-url?${sourceMapQueryStr}`,
-            `sass?${sourceMapQueryStr}`,
+            `sass?sourceMap&sourceMapContents`,
           ],
         }),
       },
