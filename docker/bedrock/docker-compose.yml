@@ -1,0 +1,19 @@
+wp:
+  image: adamyeats/docker-nginx-hhvm-bedrock
+  ports:
+    - "8085:80"
+  links:
+    - db:mysql
+    - memcached:memcached # Optional
+  volumes:
+    - .:/var/www/html
+  environment:
+    DB_NAME: my_wordpress_project
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: root
+
+memcached: # Optional, recommeded for W3 Cache users
+  image: memcached
