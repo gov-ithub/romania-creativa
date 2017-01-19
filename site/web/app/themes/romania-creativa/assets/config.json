@@ -1,0 +1,20 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "watch": [
+    "templates/**/*.php",
+    "src/**/*.php",
+    "assets/styles/**/*.scss"
+  ],
+  "publicPath": "/app/themes/romania-creativa",
+  "devUrl": "http://localhost:81",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]"
+}
