@@ -5,11 +5,6 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 ## Instalare
 ### Requirements
 
-* [Ansible](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-pip) >= 2.0.2 (except 2.1.0) (Windows users may skip this)
-* [Virtualbox](https://www.virtualbox.org/wiki/Downloads) >= 4.3.10
-* [Vagrant](https://www.vagrantup.com/downloads.html) >= 1.8.5
-* [vagrant-bindfs](https://github.com/gael-ian/vagrant-bindfs#installation) >= 0.3.1 (Windows users may skip this)
-* [vagrant-hostmanager](https://github.com/smdahlen/vagrant-hostmanager#installation)
 * [PHP](http://php.net/manual/en/install.php) >= 5.6.4
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 6.9.x
@@ -17,18 +12,29 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 * [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) >= 3.8.10
 * [Bower](https://github.com/bower/bower/blob/master/README.md#install) >= 1.3.12
 
+### Setup
+* create mysql database: `rocreativa`
+* create website that points to `site\web` (Apache, NGINX etc.) 
+* open shell and navigate to `\\romania-creativa` 
+```
+cd site
+composer install
+
+copy .env.example as .env
+update config settings
+
+cd web\wp\wp-content\themes\
+for /D %f in (twenty*) do rm -rf %f
+
+cd ..\..\..\app\themes\romania-creativa\
+composer install
+yarn
+```
+
 ### Start app
-* clone repo (console/repo or using Source Tree)
-* go to `trellis` - where you cloned the repo
-* !!! For Windows users - set Windows\System32\drivers\etc\host file, Modify permission for your user
-* turn off the antivirus (in my case Avira) or set your antivirus to not block editing host file
-* run `vagrant up`
-* grab a coffee, it will take a while :)
+* open shell and navigate to `\\romania-creativa\site\web\app\themes\romania-creativa\`
+* `yarn start`
 
-* after your dev session finished, better run `vagrant halt`
-
-### Known issues
-[VT-x/AMD-V hardware acceleration disabled](https://forums.virtualbox.org/viewtopic.php?f=2&t=70291)
 
 ## Contribuie
 
