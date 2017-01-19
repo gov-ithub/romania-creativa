@@ -15,6 +15,7 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 ### Setup
 * create mysql database: `rocreativa`
 * create website that points to `site\web` (Apache, NGINX etc.) 
+* clone & branch `romania-creativa` repository
 * open shell and navigate to `\\romania-creativa` 
 ```
 cd site
