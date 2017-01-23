@@ -16,14 +16,13 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 * create mysql database: `rocreativa`
 * create website that points to `site\web` (Apache, NGINX etc.) 
 * clone & branch `romania-creativa` repository
+* navigate to `\\romania-creativa`
+* copy `.env.example` as `.env`
+* update `.env` file with valid configuration settings
 * open shell and navigate to `\\romania-creativa` 
 ```
 cd site
 composer install
-```
-- copy `.env.example` as `.env`
-- update `.env` file with valid configuration settings
-```
 cd web\wp\wp-content\themes\
 for /D %f in (twenty*) do rm -rf %f
 
