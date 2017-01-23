@@ -20,10 +20,10 @@ România trebuie să se alinieze tendințelor globale de trecere de la procesele
 ```
 cd site
 composer install
-
-copy .env.example as .env
-update config settings
-
+```
+- copy `.env.example` as `.env`
+- update config settings
+```
 cd web\wp\wp-content\themes\
 for /D %f in (twenty*) do rm -rf %f
 
