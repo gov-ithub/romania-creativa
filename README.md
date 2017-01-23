@@ -22,7 +22,7 @@ cd site
 composer install
 ```
 - copy `.env.example` as `.env`
-- update config settings
+- update `.env` file with valid configuration settings
 ```
 cd web\wp\wp-content\themes\
 for /D %f in (twenty*) do rm -rf %f
