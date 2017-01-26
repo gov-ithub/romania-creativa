@@ -1,0 +1,118 @@
+
+html {
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	word-wrap: inherit;
+}
+
+body {
+	/* Fallback for when there is no custom background color defined. */
+	background: #fff;
+}
+
+.wrap {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	margin: 0 auto;
+
+	&:after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+
+}
+
+.wrap,
+.screen-wrap {
+	@media #{$tablet-up} {
+		max-width: 1120px;
+	}
+}
+
+.screen-wrap {
+	
+	margin: 0 auto;
+	
+	@media #{$tablet-up} {
+		
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		
+		.wrap {
+			padding: 0;
+			margin: 0;
+			max-width: 100%;
+		}
+		
+	}
+	
+	@media #{$netbook} {
+		
+		display: flex;
+		justify-content: space-between;
+		
+		.navigation-top {
+			
+			flex-basis: 80%;
+			
+			ul.menu {
+				margin-top: .35em;
+			}
+			
+		}
+		
+	}
+	
+}
+
+.site-main {
+	
+	article {
+		margin-bottom: 1.5em;
+	}
+	
+}
+
+div.separator {
+	height: 28px;
+	display: block;
+	background-image: url(data:image/gif;base64,R0lGODlhAwAcAPABALOzs////yH5BAAAAAAALAAAAAADABwAAAIOTGCZqNv+TpSRPduwAgUAOw==);
+	background-repeat: repeat-x;
+	margin-bottom: 1em;
+}
+
+.site-content-contain {
+	padding-top: 35px;
+	
+	.home & {
+		padding-top: 0;
+	}
+	
+}
+
+@media #{$tablet-up} {
+	
+	.has-sidebar {
+		
+		#primary {
+			float: left;
+			width: 64%;
+		}
+	
+		#secondary {
+			float: right;
+			padding-top: 0;
+			width: 32%;
+		}
+		
+	}
+
+}

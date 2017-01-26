@@ -1,0 +1,42 @@
+.site-header {
+	padding: 25px 0 0;
+	
+	@media #{$netbook} {
+		padding: 45px 0 0;
+	}
+	
+}
+
+.coloured-separator {
+	height: 10px;
+	background-image: url('data:image/gif;base64,R0lGODlhpAUBAPQAAOJYfsraFcvbGs3cI/yhQvyjRvynTfrnb/rpeZBVqJhhruRkh3PRjH3UlOmkueuqvurcv72TzrqXz8Kb0Yvb2JPe2+vexAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAACkBQEAAAWtIHKMZGmeaKqubOu+8IoMQW3feK7vfO//wKCQJ2gwjsikcslsOp/QqHRKfTYqlKx2y+16v+CweEwum7uSiHrNbrvf8Lh8Tq/b7/KJIsHv+/+AgYKDhIWGh4iJhAoOjY6PkJGSk5SVlpeYmZqVDwsAn6ChoqOkpaanqKmqq6ynCxYQsbKztLW2t7i5uru8vb65FgUEw8TFxsfIycrLzM3Oz9DKBiIx1dbX2NnWCCEAOw==');
+	background-position: top center;
+	background-repeat: repeat;
+	background-size: contain;
+	margin-top: 25px;
+	
+	@media #{$tablet-up} {
+		background-size: auto;
+	}
+	
+}
+
+.site-branding {
+	float: left;
+	
+	@media #{$tablet-up} {
+		float: none;
+	}
+	
+}
+
+.site-title {
+	
+	margin: 0;
+	line-height: 1.2;
+	
+	img {
+		max-width: 140px;
+	}
+	
+}

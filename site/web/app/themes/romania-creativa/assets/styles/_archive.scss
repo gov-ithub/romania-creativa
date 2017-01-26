@@ -1,0 +1,81 @@
+body.category {
+}
+
+.fact-list {
+
+	article {
+		margin-bottom: 1.5em;
+	}
+	
+}
+
+.casestudies-area {
+	clear: both;
+}
+
+.case-list {
+	
+	margin: 0 0 2em;
+	
+	&:after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+	
+	figure {
+		margin: 0;
+	}
+	
+	@media #{$tablet-up} {
+	
+		margin-right: -1em;
+		
+		article {
+			float: left;
+			width: 33.33%;
+			.post-thumbnail {
+				padding-right: 1em;
+			}
+		}
+	
+	}
+	
+}
+
+.contacts-area {
+	
+	&:after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+	
+	article {
+		margin: 0 -1.5em 1em;
+		
+		.inner {
+			background-color: #f3f3f3;
+			padding: 1em 1.5em;
+		}
+	}
+	
+	@media #{$tablet-up} {
+		
+		.contact-list {
+			margin: 0 -1em 0 0;
+		}
+		
+		article {
+			float: left;
+			width: 33.33%;
+			margin: 0 0 1em;
+			.inner {
+				margin-right: 1em;
+				padding: 1em;
+			}
+		}
+	
+	}
+	
+}
