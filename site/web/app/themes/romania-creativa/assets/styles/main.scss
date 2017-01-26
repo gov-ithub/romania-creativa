@@ -1,18 +1,121 @@
+/*
+Theme Name: Romania Creativa
+Theme URI:
+Author: GovITHub
+Author URI: http://ithub.gov.ro/
+Description: Romania Creativa Prin proiectul Romania Creativa ne dorim sa construim o comunitate creativa bazata pe incredere reciproca intre membrii industriilor creative si institutiile statului, ce are la baza un parteneriat activ. Industriile creative trebuie sa devina o prioritate naționala.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rocreativa
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+TABLE OF CONTENTS:
+
+*/
+
 @import "common/variables";
-
 // Import npm dependencies
-@import "~bootstrap/scss/bootstrap";
+//#@import "~bootstrap/scss/bootstrap";
 @import "~font-awesome/scss/font-awesome";
-
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
 @import "components/wp-classes";
-@import "layouts/header";
+//#@import "layouts/header";
 @import "layouts/sidebar";
-@import "layouts/footer";
+//#@import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "breakpoints";
+
+/* 1.0 Normalize */
+
+@import "normalize";
+
+/* 2.0 Accessibility */
+
+@import "accessibility";
+
+/* 3.0 Elements */
+
+@import "elements";
+
+/* 4.0 Typography */
+
+@import "typography";
+
+/* 5.0 Forms */
+
+@import "forms";
+
+/* 6.0 Navigation */
+
+@import "navigation";
+
+/* 7.0 Layout */
+
+@import "layout";
+
+/* 7.1 Header */
+
+@import "header";
+
+/* 7.2 Content */
+
+@import "content";
+
+/* 7.3 Footer */
+
+@import "footer";
+
+/* 7.4 Single */
+
+@import "single";
+
+/* 7.5 Archive */
+
+@import "archive";
+
+/* 8.0 Comments */
+
+@import "comments";
+
+/* 9.0 Widgets */
+
+@import "widgets";
+
+/* 10.0 Media */
+
+@import "media";
+
+/* 10.1 Alignments */
+
+@import "alignments";
+
+/* 10.2 Galleries */
+
+@import "galleries";
+
+/* 11.0 Customizer */
+
+//#@import "customizer";
+
+/* 12.0 Print */
+
+//#@import "print";
+
+/* 13.0 Development */
+
+//#@import "development";
+
+/* 14.0 Plugins */
+
+//#@import "plugins";

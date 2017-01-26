@@ -1,0 +1,22 @@
+// Breakpoints: phones, tablet, netbook, desktop, big screen
+
+$phone:					"(max-width: 30.063em)";
+$phone-up:			"(min-width: 30.063em)";
+
+$phablet: 			"(min-width: 30.063em) and (max-width: 48em)";
+
+$tablet:				"(min-width: 48.063em) and (max-width: 64em)";
+$tablet-up:			"(min-width: 48.063em)";
+$tablet-dn:			"(max-width: 48em)";
+
+$netbook: 			"(min-width: 64em)";
+$netbook-dn: 		"(max-width: 64em)";
+
+$desktop:				"(min-width: 75em)";
+$desktop-dn:		"(max-width: 75em)";
+
+$bigscreen: 		"(min-width: 86em)";
+$bigscreen-dn: 	"(max-width: 86em)";
+
+$landscape: 		"(orientation: landscape)";
+$portrait: 			"(orientation: portrait)";

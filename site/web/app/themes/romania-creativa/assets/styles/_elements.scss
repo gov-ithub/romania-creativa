@@ -1,0 +1,68 @@
+/* Links */
+
+a {
+	color: #00a4da;
+	text-decoration: none;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+	
+}
+
+/* Headings */
+/* Lists */
+
+ul,
+ol {
+	margin: 1em 0 1.5em 1em;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* Tables */
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+	width: 100%;
+}
+
+th,
+td {
+	text-align: left;
+	padding: .5em 0;
+}
+
+tr {
+	border-bottom: 1px solid #eee;
+}
+
+/* Formatting */
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #eee;
+	margin: 1.5em 0;
+}

@@ -1,0 +1,63 @@
+.comments-area {
+	margin: 2em 0;
+}
+
+.comments-title {
+	margin-bottom: 1em;
+}
+
+.comment-list {
+	list-style: none;
+	margin-left: 0;
+	
+	.children {
+		list-style: none;
+	}
+}
+
+.comment-body {
+	margin-bottom: 1em;
+}
+
+.comment-author {
+	
+	.avatar,
+	.fn,
+	.says {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.avatar {
+	}
+	
+}
+
+.comment-metadata {
+	margin: 1em 0;	
+	
+	>* {
+		display: inline-block;
+	}
+	
+	>a {
+		color: #8a8a8a;
+	}
+	
+}
+
+/* Comment form */
+
+.comment-form {
+}
+
+#comment,
+#author,
+#email,
+#url {
+	display: block;
+}
+
+#comment {
+	width: 100%;
+}
